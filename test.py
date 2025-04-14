@@ -16,7 +16,7 @@ cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10, brightness)
 
-model = tf.keras.models.load_model("traffic_sign_model.h5")  ## rb = READ BYTE
+model = tf.keras.models.load_model("traffic_sign_model.h5")
 
 
 def grayscale(img):
